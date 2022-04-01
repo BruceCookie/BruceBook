@@ -157,16 +157,14 @@ ___
 
 ##2.8 links
 
-[Myblog](https://brucecookie.github.io)
+[google](www.google.com/)
 
 ```bash
-[Myblog](https://brucecookie.github.io)
+[google](www.google.com/)
 ```
 
 ## 2.9 picture
 
 ```bash
-github:  ![picture](images/How_to_blog/picture.gif)
+github:  ![toc](images/markdown/toc.png)
 ```
-
-# 

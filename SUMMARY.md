@@ -2,7 +2,10 @@
 
 * [Introduction](README.md)
 * [Build environment for bloging](Build_environment_for_bloging.md)
-* [How to blog](How_to_blog.md)
-* [How to use Git](How_to_use_Git.md)
-* [How to code](How_to_code.md)
+* [Build_environment_for_netbook](Build_environment_for_netbook.md)
+* [Blog with hexo](Blog_with_hexo.md)
+* [Markdown](markdown.md)
+* [Using Git](Using_Git.md)
+* [Coding tips](Coding_tips.md)
+* [Linux tips](Linux_tips.md)
 

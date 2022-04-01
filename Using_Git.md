@@ -1,8 +1,4 @@
----
-title: How to use Git
-date: 2022-03-07 13:09:33
-tags: git
----
+[toc]
 
 <!-- toc -->
 
@@ -63,3 +59,27 @@ git commit -m  "[some message]"
 git push -u origin [current branch name] 
 ```
 ![merge](./images/How_to_use_Git/merge.gif)
+
+# 4 Undoing git
+
+## 4.1 undoing "add"
+
+```bash
+git add .
+git reset #this command can undo the "add" command.
+```
+
+## 4.2 undoing "commit"
+
+```bash
+git commit -am "added install step"
+git reset HEAD~1 #HEAD~1 means the head will point back one commit further
+```
+
+## 4.3 undoing multiple "commit"
+
+```bash
+git log #run this command we can see the hash, copy it
+git reset [hash] #paste the hash at the pasition [hash]
+```
+

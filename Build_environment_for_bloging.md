@@ -1,8 +1,5 @@
----
-title: How to build an environment for bloging
-date: 2022-03-06 10:39:22
-tags: blog
----
+[toc]
+
 <!-- toc -->
 
 # 1 Operating system
@@ -10,8 +7,8 @@ utuntu + github + hexo
 # 2 Installing essential Tools
 ## 2.1 updata and upgrade
 ```bash
-sudo apt-get updatemd
-sudo apt-get upgrande
+sudo apt-get update
+sudo apt-get upgrade
 ```
 ## 2.2 Installing node.js & npm
 

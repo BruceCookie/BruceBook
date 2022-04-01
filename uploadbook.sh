@@ -17,6 +17,9 @@ gitbook build .
 echo "executing：cd ./_book\n"
 cd ./_book
 
+echo "executing：git init\n"
+git init
+
 echo "executing：git add -A"
 git add -A
 

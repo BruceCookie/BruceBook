@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-REPO_SSH='[repository SSH]'  #[repository SSH]: copy from github repository page --> "code" button. 
+REPO_SSH='git@github.com:BruceCookie/BruceBook.git'  #[repository SSH]: copy from github repository page --> "code" button. 
 
 echo "executing：git add -A"
 git add -A

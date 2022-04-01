@@ -202,3 +202,9 @@ cd -
 EOF
 ```
 
+I can upload the local files after saving them with following command:
+
+```bash
+bash uploadbook.sh
+```
+

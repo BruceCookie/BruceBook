@@ -92,3 +92,35 @@ now, the relative files catalog is like this:
  add an array to "watch", and add a prefix "*(type(*)[number])" to the array name:
 
  <img src="./images/How_to_code/watch_array.png" alt="watch_array" />
+
+# C++
+
+## rand()
+
+```c++
+#include<stdlib.h>
+#include<time.h>
+time_t time(time_t *t);  
+srand((unsigned)time(NULL)); //use time as a seed
+char pattern[20];
+for (int i = 0; i < sizeof(pattern); i++)
+pattern[i] = (97 + rand() % 4); //assign each element of the array as a or b or c or d
+```
+
+## sleep()
+
+Linux:
+
+```c++
+#include<unistd.h>
+sleep(1); //delay for one seconds
+```
+
+windows:
+
+```c++
+#include<iostream>
+using namespace std;
+_sleep(1000);//delay for one seconds
+```
+

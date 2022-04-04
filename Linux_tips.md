@@ -35,19 +35,19 @@
 
 ## about package
 
-| *.tar.xz extract              | tar xvJf [filename.tar.xz]                  |                                                              |
-| ----------------------------- | ------------------------------------------- | ------------------------------------------------------------ |
-| *.tar extract                 | tar -xvf [filename.tar]                     |                                                              |
-| *.tar pachage                 | tar -cvf [filename.tar] [target folder]     |                                                              |
-| *.gz extract                  | gunzip [filename.gz]                        | gzip -d [filename.gz]                                        |
-| *.gz compressing              | gzip [target folder]                        |                                                              |
-| *.tar.gz / *.tgz  extract     | tar -zxvf [filename.tar.gz]                 | tar -C [directory] -zxvf [filename.tar.gz]                   |
-| *.tar.gz / *.tgz  compressing | tar -zcvf [filename.tar.gz] [target folder] |                                                              |
-| *.zip  extract                | unzip [filename.zip]                        |                                                              |
-| *.zip  compressing            | zip  [filename.zip] [target folder]         | compressing sub-folder zip -r [filename.zip] [target folder] |
-| *.rar extract                 | rar x [filename.rar]                        |                                                              |
-| *.rar compressing             | rar a [filename.rar] [target folder]        |                                                              |
-|                               |                                             |                                                              |
+| *.tar.xz extract                                        | tar xvJf [filename.tar.xz]                  |                                                              |
+| ------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------ |
+| *.tar extract                                           | tar -xvf [filename.tar]                     |                                                              |
+| xxxxxxxxxx github:  ![toc](images/markdown/toc.png)bash | tar -cvf [filename.tar] [target folder]     |                                                              |
+| *.gz extract                                            | gunzip [filename.gz]                        | gzip -d [filename.gz]                                        |
+| *.gz compressing                                        | gzip [target folder]                        |                                                              |
+| *.tar.gz / *.tgz  extract                               | tar -zxvf [filename.tar.gz]                 | tar -C [directory] -zxvf [filename.tar.gz]                   |
+| *.tar.gz / *.tgz  compressing                           | tar -zcvf [filename.tar.gz] [target folder] |                                                              |
+| *.zip  extract                                          | unzip [filename.zip]                        |                                                              |
+| *.zip  compressing                                      | zip  [filename.zip] [target folder]         | compressing sub-folder zip -r [filename.zip] [target folder] |
+| *.rar extract                                           | rar x [filename.rar]                        |                                                              |
+| *.rar compressing                                       | rar a [filename.rar] [target folder]        |                                                              |
+|                                                         |                                             |                                                              |
 
 # vim
 

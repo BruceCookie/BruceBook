@@ -87,3 +87,8 @@ now, the relative files catalog is like this:
 
  <img src="./images/How_to_code/files_catalog_vscode.png" alt="files_catalog_vscode" />
 
+## *watch every element of an array when debugging
+
+ add an array to "watch", and add a prefix "*(type(*)[number])" to the array name:
+
+ <img src="./images/How_to_code/watch_array.png" alt="watch_array" />

@@ -1,0 +1,509 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Coding tips · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Linux_tips.html" />
+    
+    
+    <link rel="prev" href="Using_Git.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Build_environment_for_bloging.html">
+            
+                <a href="Build_environment_for_bloging.html">
+            
+                    
+                    Build environment for bloging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Build_environment_for_netbook.html">
+            
+                <a href="Build_environment_for_netbook.html">
+            
+                    
+                    Build_environment_for_netbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Blog_with_hexo.html">
+            
+                <a href="Blog_with_hexo.html">
+            
+                    
+                    Blog with hexo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="markdown.html">
+            
+                <a href="markdown.html">
+            
+                    
+                    Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Using_Git.html">
+            
+                <a href="Using_Git.html">
+            
+                    
+                    Using Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="Coding_tips.html">
+            
+                <a href="Coding_tips.html">
+            
+                    
+                    Coding tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Linux_tips.html">
+            
+                <a href="Linux_tips.html">
+            
+                    
+                    Linux tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Coding tips</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>[toc]</p>
+<!-- toc -->
+<ul>
+<li><a href="#vscode">VScode</a><ul>
+<li><a href="#cursor">cursor</a></li>
+<li><a href="#edit">edit</a></li>
+<li><a href="#others">others</a><ul>
+<li><a href="#*-extensions">* extensions</a></li>
+</ul>
+</li>
+<li><a href="#c/c++">C/C++</a></li>
+<li><a href="#material-theme">material theme</a></li>
+<li><a href="#codespell-checker">CodeSpell Checker</a></li>
+<li><a href="#bracket-pair-colorizer">Bracket pair Colorizer</a></li>
+<li><a href="#rainbow-highlighter">rainbow-highlighter</a><ul>
+<li><a href="#*-default-space">* default space</a></li>
+<li><a href="#*-chinese-shows-messy-code">* Chinese shows messy code</a></li>
+<li><a href="#*-font-setting">* Font setting</a></li>
+<li><a href="#*-show-the-c++-putout-to-terminal">* show the C++ putout to terminal</a></li>
+<li><a href="#*watch-every-element-of-an-array-when-debugging">*watch every element of an array when debugging</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#c++">C++</a><ul>
+<li><a href="#rand(">rand()</a>)</li>
+<li><a href="#sleep(">sleep()</a>)</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<h1 id="vscode">VScode</h1>
+<h2 id="shortcus">*shortcus</h2>
+<h3 id="cursor">cursor</h3>
+<table>
+<thead>
+<tr>
+<th>home</th>
+<th>line beginning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>end</td>
+<td>line ending</td>
+</tr>
+<tr>
+<td>ctrl+home</td>
+<td>document beginning</td>
+</tr>
+<tr>
+<td>ctrl+end</td>
+<td>document ending</td>
+</tr>
+<tr>
+<td>ctrl+shift+\</td>
+<td>jump between curly braces {}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="edit">edit</h3>
+<table>
+<thead>
+<tr>
+<th>F2</th>
+<th>batch modify variable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="others">others</h3>
+<table>
+<thead>
+<tr>
+<th>ctrl+p</th>
+<th>jump to another document</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ctrl+g</td>
+<td>jump to another line</td>
+</tr>
+</tbody>
+</table>
+<h2 id="extensions">* extensions</h2>
+<h3 id="cc">C/C++</h3>
+<h3 id="material-theme">material theme</h3>
+<h3 id="codespell-checker">CodeSpell Checker</h3>
+<h3 id="bracket-pair-colorizer">Bracket pair Colorizer</h3>
+<h3 id="rainbow-highlighter">rainbow-highlighter</h3>
+<p>&#x200B;        shift+alt+Z</p>
+<p>&#x200B;        shift+alt+A</p>
+<h2 id="default-space">* default space</h2>
+<p>The number of default space is two, sometimes we want change it to four.</p>
+<p><img src="images/How_to_code/VScode_tab.PNG" alt="VScode_tab"> </p>
+<p> &quot;File&quot; --&gt; &quot;Preferences&quot; --&gt; &quot;Settings&quot; --&gt;search for &quot;editor.detectIndentation&quot; , uncheck.</p>
+<h2 id="chinese-shows-messy-code">* Chinese shows messy code</h2>
+<p> <img src="images/How_to_code/messy code.PNG" alt="messy code" style="zoom:80%;"></p>
+<p> &quot;File&quot; --&gt; &quot;Preferences&quot; --&gt; &quot;Settings&quot; --&gt;search for &quot;files.autoGuessEncoding&quot; , check.</p>
+<h2 id="font-setting">* Font setting</h2>
+<p>&quot;File&quot; --&gt; &quot;Preferences&quot; --&gt; &quot;Settings&quot; --&gt;search for &quot;edit.font family&quot; , put in &quot;Noto Sans Mono CJK SC,monospace&quot;.</p>
+<h2 id="show-the-c-putout-to-terminal">* show the C++ putout to terminal</h2>
+<p>(1) installing extentions</p>
+<p> <img src="images/How_to_code/install_extentions.png" alt="install_extentions"></p>
+<p>(2) new a file named &quot;main.c&quot;</p>
+<p>(3)typing the F5 choose &quot;C++(GDB/LLDB)&quot;, it&apos;ll generate a file named &quot;launch.json&quot;, rewrite the file with following code:</p>
+<pre><code class="lang-json">{
+    <span class="hljs-comment">// Use IntelliSense to learn about possible attributes.</span>
+    <span class="hljs-comment">// Hover to view descriptions of existing attributes.</span>
+    <span class="hljs-comment">// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387</span>
+    <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;0.2.0&quot;</span>,
+    <span class="hljs-string">&quot;configurations&quot;</span>: [
+        {
+            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;(gdb) Launch&quot;</span>,
+            <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;cppdbg&quot;</span>,
+            <span class="hljs-string">&quot;request&quot;</span>: <span class="hljs-string">&quot;launch&quot;</span>,
+            <span class="hljs-string">&quot;program&quot;</span>: <span class="hljs-string">&quot;${workspaceFolder}/${fileBasenameNoExtension}.out&quot;</span>,
+            <span class="hljs-string">&quot;args&quot;</span>: [],
+            <span class="hljs-string">&quot;stopAtEntry&quot;</span>: <span class="hljs-literal">false</span>,
+            <span class="hljs-string">&quot;cwd&quot;</span>: <span class="hljs-string">&quot;${workspaceFolder}&quot;</span>,
+            <span class="hljs-string">&quot;environment&quot;</span>: [],
+            <span class="hljs-string">&quot;externalConsole&quot;</span>: <span class="hljs-literal">false</span>,
+            <span class="hljs-string">&quot;MIMode&quot;</span>: <span class="hljs-string">&quot;gdb&quot;</span>,
+            <span class="hljs-string">&quot;preLaunchTask&quot;</span>: <span class="hljs-string">&quot;build&quot;</span>,
+            <span class="hljs-string">&quot;setupCommands&quot;</span>: [
+                {
+                    <span class="hljs-string">&quot;description&quot;</span>: <span class="hljs-string">&quot;Enable pretty-printing for gdb&quot;</span>,
+                    <span class="hljs-string">&quot;text&quot;</span>: <span class="hljs-string">&quot;-enable-pretty-printing&quot;</span>,
+                    <span class="hljs-string">&quot;ignoreFailures&quot;</span>: <span class="hljs-literal">true</span>
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<p>(4)in the same folder named &quot;.vscode&quot;, new a file named &quot;tasks.json&quot; and type following code in it :</p>
+<pre><code class="lang-json">{
+    <span class="hljs-comment">// See https://go.microsoft.com/fwlink/?LinkId=733558</span>
+    <span class="hljs-comment">// for the documentation about the tasks.json format</span>
+    <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>,
+    <span class="hljs-string">&quot;tasks&quot;</span>: [
+        {
+            <span class="hljs-string">&quot;label&quot;</span>: <span class="hljs-string">&quot;build&quot;</span>,
+            <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;shell&quot;</span>,
+            <span class="hljs-string">&quot;command&quot;</span>: <span class="hljs-string">&quot;g++&quot;</span>,
+            <span class="hljs-string">&quot;args&quot;</span>: [<span class="hljs-string">&quot;-g&quot;</span>, <span class="hljs-string">&quot;${file}&quot;</span>, <span class="hljs-string">&quot;-std=c++11&quot;</span>, <span class="hljs-string">&quot;-o&quot;</span>, <span class="hljs-string">&quot;${fileBasenameNoExtension}.out&quot;</span>]
+        }
+     ]
+}
+</code></pre>
+<p>now, the relative files catalog is like this:</p>
+<p> <img src="images/How_to_code/files_catalog.png" alt="files_catalog"></p>
+<p> <img src="images/How_to_code/files_catalog_vscode.png" alt="files_catalog_vscode"></p>
+<h2 id="watch-every-element-of-an-array-when-debugging">*watch every element of an array when debugging</h2>
+<p> add an array to &quot;watch&quot;, and add a prefix &quot;<em>(type(</em>)[number])&quot; to the array name:</p>
+<p> <img src="images/How_to_code/watch_array.png" alt="watch_array"></p>
+<h1 id="c">C++</h1>
+<h2 id="rand">rand()</h2>
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;stdlib.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;time.h&gt;</span></span>
+<span class="hljs-keyword">time_t</span> time(<span class="hljs-keyword">time_t</span> *t);  
+srand((<span class="hljs-keyword">unsigned</span>)time(<span class="hljs-literal">NULL</span>)); <span class="hljs-comment">//use time as a seed</span>
+<span class="hljs-keyword">char</span> pattern[<span class="hljs-number">20</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword">sizeof</span>(pattern); i++)
+pattern[i] = (<span class="hljs-number">97</span> + rand() % <span class="hljs-number">4</span>); <span class="hljs-comment">//assign each element of the array as a or b or c or d</span>
+</code></pre>
+<h2 id="sleep">sleep()</h2>
+<p>Linux:</p>
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;unistd.h&gt;</span></span>
+sleep(<span class="hljs-number">1</span>); <span class="hljs-comment">//delay for one seconds</span>
+</code></pre>
+<p>windows:</p>
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
+_sleep(<span class="hljs-number">1000</span>);<span class="hljs-comment">//delay for one seconds</span>
+</code></pre>
+<script type="text/javascript">var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];if(targetUl.getElementsByTagName('a').length>0){targetUl.className='toc';}</script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Using_Git.html" class="navigation navigation-prev " aria-label="Previous page: Using Git">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Linux_tips.html" class="navigation navigation-next " aria-label="Next page: Linux tips">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Coding tips","level":"1.7","depth":1,"next":{"title":"Linux tips","level":"1.8","depth":1,"path":"Linux_tips.md","ref":"Linux_tips.md","articles":[]},"previous":{"title":"Using Git","level":"1.6","depth":1,"path":"Using_Git.md","ref":"Using_Git.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toc","expandable-chapters"],"pluginsConfig":{"toc":{"addClass":true,"className":"toc"},"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Coding_tips.md","mtime":"2022-06-10T01:49:50.443Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-10T02:53:25.806Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
